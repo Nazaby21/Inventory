@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Miniver&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+/* Side Bar */
+
+.menu-nav{
+    min-width: 240px;
+    background-color: #483d8b;
+    color:white;
+    height: 100vh;
+}
+
+.menu-nav .brand i{
+    font-size: 35px;
+}
+
+.menu-nav .brand span{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-list i{
+    font-size: 20px;
+}
+
+.menu-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-footer i{
+    font-size: 20px;
+}
+
+.menu-footer span{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.menu-list a:hover{
+    background-color:#23297a;
+}
+
+.menu-footer:hover{
+    background-color: red;
+}
+
+/* Main */
+
+.miniver-regular {
+    font-family: "Miniver", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.main .navbar {
+    background-color: #dcdcdc ;
+}
+
+.main .navbar img{
+    width: 50px;
+    border-radius: 15%;
+}
+
+.main form input{
+    border: none;
+    outline: none;
+    min-width: 300px;
+}
+
+.main form button{
+    border: none;
+    background-color: #838996;
+}
+
+
+.main h2{
+    font-size: 30px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.main section .control-card{
+    color: black;
+    font-weight: 500;
+}
+
+.main section .control-card .avg{
+    /* display: flex;
+    flex-direction: column; */
+    font-size: 12px;
+    color: white;
+    background-color: rgb(32, 184, 32);
+    width: 50px;
+    height: 20px;
+    border-radius: 10%;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.main section .control-card .avg-text{
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.main .table-view thead tr th{
+    background-color: #483d8b;
+}
+footer{
+    margin-top: 60px;
+}
+.footer-col{
+    background-color: black;
+    color: red;
+    height: 70px;
+    padding: 0 15px;
+    text-align: center;
+    padding-top: 20px;
+}
